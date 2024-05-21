@@ -1,0 +1,108 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    margin: 150px auto;
+    position: relative;
+    animation: floweranimation 10s linear 0s infinite;
+}
+@keyframes floweranimation{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.parent > div{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.common{
+    width: 200px;
+    height: 200px;
+    opacity: 0.4;
+    transform-origin: right bottom;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius:200px ;
+}
+.leaf1{
+    background-color: crimson;
+    transform: rotateZ(0deg);
+}
+.leaf2{
+    background-color: darksalmon;
+    transform: rotateZ(18deg);
+}
+.leaf3{
+    background-color:dimgrey;
+    transform: rotateZ(36deg);
+}
+.leaf4{
+    background-color: lavender;
+    transform: rotateZ(54deg);
+}
+.leaf5{
+    background-color: lightsalmon;
+    transform: rotateZ(72deg);
+}
+.leaf6{
+    background-color:mediumaquamarine;
+    transform: rotateZ(90deg);
+}
+.leaf7{
+    background-color: midnightblue;
+    transform: rotateZ(108deg);
+}
+.leaf8{
+    background-color: orange;
+    transform: rotateZ(126deg);
+}
+.leaf9{
+    background-color: chocolate;
+    transform: rotateZ(144deg);
+}
+.leaf10{
+    background-color: darkkhaki;
+    transform: rotateZ(162deg);
+}
+.leaf11{
+    background-color: darkcyan;
+    transform: rotateZ(180deg);
+}
+.leaf12{
+    background-color:fuchsia;
+    transform: rotateZ(198deg);
+}
+.leaf13{
+    background-color: grey;
+    transform: rotateZ(216deg);
+}
+.leaf14{
+    background-color: indianred;
+    transform: rotateZ(234deg);
+}
+.leaf15{
+    background-color: khaki;
+    transform: rotateZ(252deg);
+}
+.leaf16{
+    background-color: lightblue;
+    transform: rotateZ(270deg);
+}
+.leaf17{
+    background-color: maroon;
+    transform: rotateZ(288deg);
+}
+.leaf18{
+    background-color: teal;
+    transform: rotateZ(306deg);
+}
+.leaf19{
+    background-color: rosybrown;
+    transform: rotateZ(324deg);
+}
+.leaf20{
+    background-color:purple;
+    transform: rotateZ(342deg);
+}
